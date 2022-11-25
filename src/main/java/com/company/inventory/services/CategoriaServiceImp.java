@@ -76,7 +76,7 @@ public class CategoriaServiceImp implements ICategoriaService{
 	}
 
 	@Override
-	@Transactional(readOnly = true) //debe ser de spring para save debe ser false
+	@Transactional(readOnly = false) //debe ser de spring para save debe ser false
 	public ResponseEntity<CategoriaResponseRest> save(Categoria categoria) {
 		CategoriaResponseRest response = new CategoriaResponseRest();
 		List<Categoria> list = new ArrayList<>();
