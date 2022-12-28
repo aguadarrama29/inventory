@@ -23,7 +23,7 @@ import com.company.inventory.services.ICategoriaService;
 import com.company.inventory.utils.CategoriaExcelExportar;
 
 //todas las peticiones de este servidor se permitan
-@CrossOrigin(origins = {"http://localhost:4200"})
+@CrossOrigin(origins = {"https://front-inventario-my-proyecto.apps-crc.testing","http://localhost:4200"})
 @RestController
 @RequestMapping("/api/v1")
 public class CategoriaRestController {
