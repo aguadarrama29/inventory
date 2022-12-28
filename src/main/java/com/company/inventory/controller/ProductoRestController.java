@@ -23,7 +23,7 @@ import com.company.inventory.utils.ProductoExcelExportar;
 
 @RestController
 @RequestMapping("/api/v1")
-@CrossOrigin(origins = {"http://localhost:4200"})
+@CrossOrigin(origins = {"https://front-inventario-my-proyecto.apps-crc.testing","http://localhost:4200"})
 public class ProductoRestController {
 	
 	@Autowired
